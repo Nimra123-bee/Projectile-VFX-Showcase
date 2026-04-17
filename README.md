@@ -1,44 +1,60 @@
 # Projectile VFX Showcase
 
-This repository showcases real-time projectile VFX systems developed during my internship at Codematics.
+This repository showcases a set of real-time projectile effects developed during my internship at Codematics, designed specifically for fast-paced gameplay scenarios where clarity and responsiveness are critical.
 
-This repository contains only visual documentation of my work and does not include source assets or project files.
+These effects were built as part of a production project. Only visual demonstrations are included here.
 
 ---
 
 ## 🎥 Demo
 
-(https://drive.google.com/file/d/1CyZwi5HOF50eyteR5Xqaive_XdyZlfov/view?usp=drive_link)
+https://drive.google.com/file/d/1CyZwi5HOF50eyteR5Xqaive_XdyZlfov/view?usp=sharing
 
 ---
 
-## ✨ Overview
+## 🎯 Design Focus
 
-This VFX set includes stylized projectile effects designed for gameplay feedback in action and combat systems.
+Unlike static VFX, projectile effects must remain readable while moving at high speed and interacting with gameplay systems.
 
-The focus was on creating clear visual readability, impact feedback, and stylistic variation suitable for real-time gameplay.
+This set focuses on:
+- maintaining visual clarity during motion  
+- ensuring strong hit feedback on impact  
+- differentiating projectile types through motion, shape, and energy behavior  
 
----
-
-## 🧠 My Role
-
-- Designed and implemented projectile VFX using Unity Particle System  
-- Created multiple projectile styles including fire, beam, bubble, electric, and circular effects  
-- Developed hit impact feedback for gameplay responsiveness  
-- Worked on timing, motion, and visual clarity for fast-paced gameplay  
-- Assisted in integrating effects into gameplay systems  
+Each effect was designed to feel responsive and consistent within a real gameplay loop rather than as standalone visuals.
 
 ---
 
-## ⚙️ Tools Used
+## 🧠 My Contribution
 
-- Unity  
-- Particle System  
-- Shader Graph  
-- Post Processing  
+- Designed and implemented multiple projectile types using Unity Particle System  
+- Worked on motion behavior, including speed, direction consistency, and trail readability  
+- Developed impact (hit) effects to clearly communicate collisions  
+- Created visual variations (fire, beam, electric, etc.) with distinct motion and energy styles  
+- Applied Shader Graph to enhance effects such as energy flow and distortion  
+- Integrated projectile and hit effects into gameplay systems for real-time interaction  
+
+---
+
+## ⚙️ Tools & Techniques
+
+- Unity Particle System (emission, trails, velocity over lifetime)  
+- Shader Graph (energy flow, distortion, animated materials)  
+- Post Processing (glow and visual enhancement)  
+
+---
+
+## 🧩 Key Challenge
+
+One of the main challenges was maintaining readability at different speeds. Fast projectiles can easily lose clarity or feel visually weak.
+
+This was addressed by:
+- balancing particle density and lifetime  
+- refining trail behavior  
+- ensuring impact effects provided strong visual confirmation  
 
 ---
 
 ## 📌 Note
 
-This repository is for demonstration purposes only. All assets are owned by the respective company and are not distributed here.
+All assets shown are part of company-owned work and are presented here for demonstration purposes only.
