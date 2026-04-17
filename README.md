@@ -39,7 +39,7 @@ Each effect was designed to feel responsive and consistent within a real gamepla
 ## ⚙️ Tools & Techniques
 
 - Unity Particle System (emission, trails, velocity over lifetime)  
-- Shader Graph (energy flow, distortion, animated materials)  
+- Shader Graph (energy flow for electric effect)  
 - Post Processing (glow and visual enhancement)  
 
 ---
