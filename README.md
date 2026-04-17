@@ -2,7 +2,7 @@
 
 This repository showcases real-time projectile VFX systems developed during my internship at Codematics.
 
-The effects were created as part of a production project. This repository contains only visual documentation of my work and does not include source assets or project files.
+This repository contains only visual documentation of my work and does not include source assets or project files.
 
 ---
 
